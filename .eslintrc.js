@@ -18,6 +18,13 @@ module.exports = {
     'react',
   ],
   rules: {
+     'eol-last': 0,
+     'no-multiple-empty-lines': [
+       "error", 
+       { "max": 1,
+        "maxEOF": 0 
+       }
+     ],
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
